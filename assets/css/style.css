@@ -106,9 +106,26 @@ body {
 .attribution {
     font-weight: 700;
     margin-bottom: 30px;
+    margin: 80px 10vw;
+    text-align: center;
 }
 
 .attribution a {
     color: var(--bright-orange-color);
     text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+    .container {
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    .one {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .three {
+        border-radius: 0 0 8px 8px;
+    }
 }
